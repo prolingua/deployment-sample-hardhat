@@ -1,2 +1,4 @@
-*.class
-*.log
+.env
+artifacts
+node_modules
+cache
