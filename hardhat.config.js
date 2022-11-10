@@ -11,17 +11,17 @@ module.exports = {
     },
   },
   networks: {
-    localhost: {
+    development: {
       url: 'http://127.0.0.1:8545'
-    },
-    mainnet: {
-      url: 'https://rpcapi.fantom.network',
-      chainId: 250,
-      accounts: [`0x${PRIVATE_KEY}`]
     },
     testnet: {
       url: 'https://rpc.testnet.fantom.network',
       chainId: 4002,
+      accounts: [`0x${PRIVATE_KEY}`]
+    },
+    mainnet: {
+      url: 'https://rpcapi.fantom.network',
+      chainId: 250,
       accounts: [`0x${PRIVATE_KEY}`]
     }
   },
