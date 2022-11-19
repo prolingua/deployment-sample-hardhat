@@ -1,2 +1,3 @@
 # deployment-sample-hardhat
-a sample of deployment using Hardhat
++ install dependencies: npm install
++ deploy to the testnet: npx hardhat run scripts/deploy_hellofantom.js --network testnet
